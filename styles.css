@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f6f6f6;
+    color: #222;
+}
+.header-bar {
+    background: #ffe600;
+    padding: 10px 0;
+    text-align: center;
+}
+.logo {
+    height: 40px;
+}
+.success-box {
+    background: #e6fff2;
+    text-align: center;
+    padding: 20px 0 10px 0;
+    margin-bottom: 10px;
+}
+.success-title {
+    color: #009e2a;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+.order-info {
+    background: #fff;
+    max-width: 600px;
+    margin: 0 auto 10px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    font-size: 1em;
+}
+.order-info .paid {
+    color: #e60000;
+    font-weight: bold;
+}
+.order-info .due {
+    color: #e60000;
+    font-weight: bold;
+}
+.order-info .redacted {
+    background: #e60000;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+.order-details {
+    background: #f9f9f9;
+    max-width: 600px;
+    margin: 0 auto 10px auto;
+    padding: 16px 20px;
+    border-radius: 8px;
+    border: 1px dashed #009e2a;
+    font-size: 0.98em;
+}
+.order-details ul {
+    margin: 0 0 10px 0;
+    padding-left: 18px;
+}
+.order-details .links {
+    margin-bottom: 10px;
+}
+.order-link {
+    color: #007aff;
+    text-decoration: underline;
+    font-size: 1em;
+}
+.support {
+    margin-top: 8px;
+    font-size: 0.98em;
+}
+.back-btn {
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+.btn {
+    background: #ffe600;
+    color: #222;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    display: inline-block;
+}
+.btn:hover {
+    background: #fff200;
+}
